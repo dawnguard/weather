@@ -61,13 +61,11 @@ if(localStorage.getItem('tempUnit'))
   tempUnit = localStorage.getItem('tempUnit');
 else
   tempUnit = 'c';
-  $('button:contains("Fahrenheit")').addClass("positive");
 
 if(tempUnit === 'c')
- { console.log("YES");
-  $('button:contains("Celsius")').addClass("positive");}
-else{
-  $('button:contains("Fahrenheit")').addClass("positive"); console.log("NO");}
+  $('button:contains("Celsius")').addClass("positive");
+else
+  $('button:contains("Fahrenheit")').addClass("positive");
 
 ///////////////////////////////////////////
 
