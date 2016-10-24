@@ -64,9 +64,10 @@ else
   $('button:contains("Fahrenheit")').addClass("positive");
 
 if(tempUnit === 'c')
-  $('button:contains("Celsius")').addClass("positive");
-else
-  $('button:contains("Fahrenheit")').addClass("positive");
+ { console.log("YES");
+  $('button:contains("Celsius")').addClass("positive");}
+else{
+  $('button:contains("Fahrenheit")').addClass("positive"); console.log("NO");}
 
 ///////////////////////////////////////////
 
