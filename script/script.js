@@ -125,17 +125,17 @@ function setBackground(tempy) {
     if (tempy > 30)
     {
       $("html").css('background-color', 'white');
-      $("html").css('background-image', 'url(https://dawnguard.github.io/weather/img/high.jpg)');
+      $("html").css('background-image', 'url(https://dawnguard.github.io/weathery/img/high.jpg)');
     }
     else if (tempy < 10)
     {
       $("html").css('background-color', 'white');
-      $("html").css('background-image', 'url(https://dawnguard.github.io/weather/img/low.jpg)');
+      $("html").css('background-image', 'url(https://dawnguard.github.io/weathery/img/low.jpg)');
     }
     else
     { 
       $("html").css('background-color', 'black');
-      $("html").css('background-image', 'url(https://dawnguard.github.io/weather/img/normal.jpg)');
+      $("html").css('background-image', 'url(https://dawnguard.github.io/weathery/img/normal.jpg)');
       $("h1").css('color', '#fef');
       $("h2").css('color', '#fef');
     }
@@ -145,17 +145,17 @@ function setBackground(tempy) {
     if (tempy > 86)
     {
       $("html").css('background-color', 'white');
-      $("html").css('background-image', 'url(https://dawnguard.github.io/weather/img/high.jpg)');
+      $("html").css('background-image', 'url(https://dawnguard.github.io/weathery/img/high.jpg)');
     }
     else if (tempy < 50)
     {
       $("html").css('background-color', 'white');
-      $("html").css('background-image', 'url(https://dawnguard.github.io/weather/img/low.jpg)');
+      $("html").css('background-image', 'url(https://dawnguard.github.io/weathery/img/low.jpg)');
     }
     else
     { 
       $("html").css('background-color', 'black');
-      $("html").css('background-image', 'url(https://dawnguard.github.io/weather/img/normal.jpg)');
+      $("html").css('background-image', 'url(https://dawnguard.github.io/weathery/img/normal.jpg)');
       $("h1").css('color', '#fef');
       $("h2").css('color', '#fef');
     }
